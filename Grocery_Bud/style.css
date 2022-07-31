@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    list-style-type: none;
+}
+
+main{
+    display: grid;
+    place-items: center;
+    min-height: 80vh;
+}
+.container{
+    text-align: center;
+    padding: 5.2rem;
+    width: 30vw;
+    transition: all 0.3s linear;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+.container:hover{
+    box-shadow: 1rem 1.5rem 1.5rem rgba(177, 40, 40, 0.1);
+}
+.notify {
+    font-size: 1.6rem;
+    margin-bottom: 2.4rem;
+    letter-spacing: 0.2rem;
+    padding: 0.4rem;
+}
+.add {
+    color: hsl(125, 67%, 44%);
+    background-color: hsl(125, 71%, 66%);
+}
+.remove {
+    color: hsl(360, 67%, 44%);
+    background-color: hsl(360, 71%, 66%);
+}
+.edit {
+    color: hsl(125, 67%, 44%);
+    border: 1px solid red;
+}
+.title {
+    font-size: 2.8rem;
+    color: #063251;
+    margin-bottom: 2.4rem;
+    letter-spacing: 0.4rem;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+}
+.input-content{
+    border-top-left-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    background-color: #f1f5f8;
+    padding: 1.2rem 1.2rem 1.2rem 1.6rem;
+    border: none;
+    font-size: 1.2rem;
+    flex-grow: 4;
+}
+
+.submit-btn {
+    border-top-right-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    background-color: #a5d5f8;
+    padding: 1.2rem;
+    border: none;
+    font-size: 1.36rem;
+    transition: all 0.4s linear;
+    flex-grow: 0;
+}
+.submit-btn:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: hsl(205, 72%, 37%);
+}
+
+.btn {
+    display: block;
+    font-size: 1.4rem;
+    letter-spacing: 0.4rem;
+    padding: 0.4rem;
+    margin: 1.5rem 1rem 0 1rem;
+    color: hsl(360, 71%, 66%);
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+.clear-btn {
+    display: none;
+}
+.enable {
+    display: block;
+}
+.clear-btn:hover {
+    color: hsl(360, 67%, 44%);
+}
+.item {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1.6rem;
+    padding: 1rem;
+    transition: all 0.4s linear;
+    border-radius: 0.8rem;
+}
+.item:hover{
+    background-color: #f1f5f8;
+}
+.item-content {
+    font-size: 1.6rem;
+}
+.item-btn {
+    border: none;
+    font-size: 1.8rem;
+    transition: all 0.4s linear;
+    margin: 0.5rem;
+}
+.edit-btn {
+    color: hsl(125, 71%, 66%);
+}
+.edit-btn:hover {
+    color: hsl(125, 67%, 44%);
+    cursor: pointer;
+}
+.remove-btn {
+    color: hsl(360, 71%, 66%);
+    cursor: pointer;
+}
+.remove-btn:hover {
+    color: hsl(360, 67%, 44%);
+}
